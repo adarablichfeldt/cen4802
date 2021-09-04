@@ -1,10 +1,17 @@
-//Written by Adara Blichfeldt
+/**
+ * @author AdaraBlichfeldt
+ *
+ */
 
 //Imports
 import java.util.Scanner;
 
 public class mod2_Recursive {
       
+    /**
+     * @param args
+     * Main method that asks for user input to determine the end position of Fibonacci
+     */
     public static void main (String args[])
     {
     	
@@ -16,6 +23,13 @@ public class mod2_Recursive {
     System.out.println("The " + position + " position of the Fibonacci sequence is " + Fibonacci(num));
     }
     
+    /**
+     * @param num
+     * @return
+     * 
+     * Method to go through Fibonacci sequence using user input 'num'
+     * using an if loop
+     */
     static int Fibonacci(int num)
     {
     	
